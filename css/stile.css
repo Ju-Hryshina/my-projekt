@@ -44,6 +44,33 @@ img{
     width: 1px !important;
     overflow: hidden;
   }
-
-
   
+  .container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* кнопка */
+.btn {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+text-align: center;
+width: 130.435px;
+height: 48px;
+flex-shrink: 0;
+
+border-radius: 8px;
+background: #ff0000;
+background-color: #000000;
+}
+/* лого */
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+/* header */
