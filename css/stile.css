@@ -44,7 +44,7 @@ img{
     width: 1px !important;
     overflow: hidden;
   }
-  
+
   .container{
     width: 1200px;
     padding-left: 15px;
@@ -74,3 +74,9 @@ background-color: #000000;
   margin-right: 10px;
 }
 /* header */
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: right;
+}
+
