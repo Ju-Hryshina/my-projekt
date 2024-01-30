@@ -1,4 +1,4 @@
-.body {
+body {
     /* font family */
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -60,18 +60,29 @@ padding: 10px 20px;
 font-size: 16px;
 text-align: center;
 width: 130.435px;
-height: 48px;
-flex-shrink: 0;
-
 border-radius: 8px;
-background: #ff0000;
-background-color: #000000;
+background-color: #ff0000;
+color: #000000;
 }
-/* лого */
-.logo {
-  width: 40px;
+.btn:hover {
+  background-color: #000000;
+  color: #ff0000;
+}
+/* logo */
+.logo img {
+  width: 80px;
   height: auto;
   margin-right: 10px;
+
+}
+
+.logo-style {
+  color: var(--header-logo);
+}
+
+.logo-style:hover,
+.logo-style:focus {
+  color: var(--accent-color);
 }
 /* header */
 .header {
@@ -79,4 +90,94 @@ background-color: #000000;
   padding: 20px;
   text-align: right;
 }
+ .header-list {
+  display: flex;
+  padding-left: 0px;
+  margin-left: 93px;
 
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-item {
+  margin-left: 50px;
+}
+.header-link {
+  color: var(--title-color);
+  font-size: 15px;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+/* main */
+.hero-title {
+  margin-right: auto;
+    margin-left: auto;
+    color: #ff2727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+  
+    width: 650px;
+  
+    margin-bottom: 60px;
+
+}
+/* херо */
+.hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(123, 124, 143, 0.4)),url(../images/vargooffice.jpg);
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: var(--bg-color);
+  margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    max-width: 1500px;
+}
+.text-hero {
+  margin-right: auto;
+    color: #fefefe;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    display: block;
+    text-align: right;
+  
+    width: 50px;
+  
+    margin-bottom: 80px;
+}
+
+
+
+/* товар */
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.advantages-list > .item{
+  flex-basis: calc((100% - 90px) / 4)
+}
+.advantages-tile {
+  color: var(--title-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.advantages-text {
+  color: var(--basic-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+}
